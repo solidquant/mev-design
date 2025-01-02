@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name    = "shared"
+version = "0.1.0"
+
+[dependencies]
+alloy                = { workspace = true }
+alloy-network        = { workspace = true }
+alloy-provider       = { workspace = true }
+alloy-rpc-client     = { workspace = true }
+alloy-transport-http = { workspace = true }
+anyhow               = { workspace = true }
+const_format         = { workspace = true }
+csv                  = { workspace = true }
+tracing              = { workspace = true }
+tracing-appender     = { workspace = true }
+tracing-subscriber   = { workspace = true }

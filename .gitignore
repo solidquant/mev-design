@@ -1,0 +1,19 @@
+# IDE
+.idea
+
+# Mac
+.DS_Store
+
+# Rust
+/target
+
+# Foundry
+/contracts/cache
+/contracts/lib
+/contracts/out
+
+# Project specific
+/logs
+/cache
+*.log
+.env

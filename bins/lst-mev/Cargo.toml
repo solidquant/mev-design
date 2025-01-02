@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name    = "lst-mev"
+version = "0.1.0"
+
+[dependencies]
+alloy     = { workspace = true }
+anyhow    = { workspace = true }
+dotenv    = { workspace = true }
+revm      = { workspace = true }
+shared    = { workspace = true }
+simulator = { workspace = true }
+tokio     = { workspace = true }
+tracing   = { workspace = true }

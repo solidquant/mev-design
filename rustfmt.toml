@@ -1,0 +1,10 @@
+edition = "2021"
+error_on_line_overflow = true
+wrap_comments = true
+use_field_init_shorthand = true
+imports_granularity = "Module"
+condense_wildcard_suffixes = true
+format_strings = true
+group_imports = "StdExternalCrate"
+use_small_heuristics = "Max"
+chain_width = 60

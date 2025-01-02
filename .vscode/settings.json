@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "editor.largeFileOptimizations": false,
+    "rust-analyzer.rustfmt.extraArgs": ["+nightly"],
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.checkOnSave.command": "check",
+    "rust-analyzer.checkOnSave.extraArgs": ["--target-dir", "/tmp/rust-analyzer-check"],
+    "rust-analyzer.files.excludeDirs": ["**/target"],
+    "rust-analyzer.workspace.discoverConfig": null,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml",
+        "editor.formatOnSave": true
+    },
+    "evenBetterToml.formatter.alignEntries": true,
+    "evenBetterToml.formatter.arrayAutoExpand": true,
+    "evenBetterToml.formatter.reorderKeys": true
+}

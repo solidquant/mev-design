@@ -1,0 +1,30 @@
+[package]
+edition = "2021"
+name    = "evm-fork-db"
+version = "0.1.0"
+
+[dependencies]
+alloy-consensus    = { workspace = true }
+alloy-primitives   = { workspace = true }
+alloy-provider     = { workspace = true }
+alloy-rpc-types    = { workspace = true }
+alloy-serde        = { workspace = true }
+alloy-transport    = { workspace = true }
+eyre               = { workspace = true }
+foundry-evm        = { workspace = true }
+foundry-evm-core   = { workspace = true }
+futures            = { workspace = true }
+parking_lot        = { workspace = true }
+reth               = { workspace = true }
+reth-chainspec     = { workspace = true }
+reth-db            = { workspace = true }
+reth-node-ethereum = { workspace = true }
+reth-node-types    = { workspace = true }
+reth-provider      = { workspace = true }
+revm               = { workspace = true }
+serde              = { workspace = true }
+serde_json         = { workspace = true }
+thiserror          = { workspace = true }
+tokio              = { workspace = true }
+tracing            = { workspace = true }
+url                = { workspace = true }

@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name    = "simulator"
+version = "0.1.0"
+
+[dependencies]
+alloy           = { workspace = true }
+alloy-sol-types = { workspace = true }
+anyhow          = { workspace = true }
+derivative      = { workspace = true }
+evm-fork-db     = { workspace = true }
+revm            = { workspace = true }
+shared          = { workspace = true }
+tracing         = { workspace = true }
