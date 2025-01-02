@@ -1,6 +1,6 @@
 # EVM MEV projects
 
-### Setup
+## Setup
 
 Create a .env file and set the following variables:
 
@@ -9,9 +9,9 @@ RPC_HTTPS_URL=
 RPC_WSS_URL=
 ```
 
-### Projects
+## Projects
 
-##### 1. Mempool monitoring system for EVM chains
+### 1. Mempool monitoring system for EVM chains
 
 This should work for all EVM compatible chains with the mempool API available.
 
@@ -36,7 +36,7 @@ Tx hash: 0x22ba26731135744e5986b4b977555ca05ebc582aa396f994f5de009fbc39fec6
 Tx hash: 0x01892e49a9c1ccb57635945bc469ddd02e182f6b4ebed2429ea77d30030158be
 ```
 
-##### 2. MEV LST arbitrage research
+### 2. MEV LST arbitrage research
 
 There are two different LST arbitrage strategies.
 
@@ -186,5 +186,5 @@ cargo run --release --bin lst-mev
 2025-01-02T10:45:09.623160Z  INFO lst_mev: Optimized profit: 102816741295678641
 ```
 
-Optimized amount in: 33.89824 ETH
+Optimized amount in: 33.89824 ETH  
 Optimized profit: 0.1028 ETH
